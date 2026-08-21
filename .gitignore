@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.installed.cfg
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data: raw market-data dumps must NOT be committed
+# (only synthetic/generated results in results/ are committed)
+data/*.csv
+data/*.parquet
+data/*.json
+data/*.feather
+
+# Large binary output outside results/
+*.pkl
+*.npy
+*.npz

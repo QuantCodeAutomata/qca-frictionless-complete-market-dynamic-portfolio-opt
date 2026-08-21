@@ -1,0 +1,3 @@
+Experiment,c,Binding,lambda_hat,eta_hat,CVaR_terminal,CVaR_threshold,E[W_T],std[W_T],avg_phi,Paper_lambda,Paper_CVaR,Paper_E[W_T],Paper_avg_phi
+exp4_sqrt_impact,-0.86,False,0.0,-0.008131,-0.8865,-0.0081,1.0255,0.0727,0.3435,0.0,-0.8839,1.026,0.35
+exp4_sqrt_impact,-0.94,True,0.10495,-0.962453,-0.9823,-0.9625,1.005,0.0149,0.066,0.07818,-0.9409,1.018,0.2422
